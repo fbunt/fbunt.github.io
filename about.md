@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About this website
+title: About me
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+I'm a master's student at the University of Montana, studying Computer Science.
+I love reading, playing video games, and messing with my Vim config.

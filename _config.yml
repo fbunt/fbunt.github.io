@@ -38,6 +38,9 @@ author:
     location: "Missoula, Montana"
 github_username:  "fbunt"
 
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  GitHub: https://github.com/fbunt
+
 # Pagination
 paginate: 5
 paginate_path: blog/page:num
