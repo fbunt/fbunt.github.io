@@ -1,3 +1,67 @@
-remote_theme: mmistakes/minimal-mistakes@4.17.2
+# Set theme
+remote_theme: daviddarnes/alembic
+
+# File excludes
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+# Set plugins
 plugins:
-    - jekyll-inlude-cache
+- jekyll-default-layout
+- jekyll-feed
+- jekyll-include-cache
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-redirect-from
+- jekyll-remote-theme
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+# Site settings
+locale: "en-US"
+url: "https://fbunt.github.io"
+baseurl: ""
+description: "Master's student, Computer Science, University of Montana"
+permalink: pretty
+search: true
+logo: "/assets/images/avatar.png"
+title: "Fred Bunt"
+
+# Personal
+author:
+    name: "Fred Bunt"
+    avatar: "/assets/images/logo.png"
+    bio: "Master's student, Computer Science, University of Montana"
+    location: "Missoula, Montana"
+github_username:  "fbunt"
+
+# Pagination
+paginate: 5
+paginate_path: blog/page:num
+
+# Header nav
+navigation_header:
+- title: Home
+  url: /
+- title: About
+  url: /about/
+- title: Blog
+  url: /blog/
+
+# Footer nav
+navigation_footer:
+- title: Back to top
+  url: "#top"
+
+# Collections
+collections:
+  posts:
+    title: Posts
+    output: true
+    description: "My thoughts and ideas"
+    feature_text: |
+      Welcome to my blog
+    feature_image: "/assets/images/blog_feature.jpg"
