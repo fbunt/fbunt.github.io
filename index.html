@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fred Bunt</title>
+<meta name="description" content="Fred Bunt, Software Engineer at the University of Montana.">
+<style>
+  :root { --bg: #fafaf9; --text: #1c1917; --muted: #78716c; --line: #e7e5e4; --link: #b45309; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161412; --text: #e7e5e4; --muted: #a8a29e; --line: #2e2a27; --link: #f59e0b; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh; display: grid; place-items: center;
+    background: var(--bg); color: var(--text);
+    font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { width: min(560px, 100%); padding: 48px 16px; }
+  h1 { font-size: 40px; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .lede { color: var(--muted); margin: 0 0 40px; }
+  .who { color: var(--text); font-weight: 600; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-weight: 600; margin: 0 0 8px; }
+  ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+  li { border-bottom: 1px solid var(--line); }
+  li a { display: block; padding: 14px 0; text-decoration: none; color: inherit; }
+  li a:hover .name, li a:focus-visible .name { color: var(--link); }
+  .name { font-weight: 600; }
+  .name::after { content: " →"; color: var(--muted); }
+  .desc { display: block; color: var(--muted); font-size: 15px; }
+  footer { margin-top: 40px; font-size: 14px; color: var(--muted); }
+  footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Hello.</h1>
+  <p class="lede"><span class="who">Fred Bunt</span><br>Software Engineer at the University of Montana</p>
+
+  <h2>Sites</h2>
+  <ul>
+    <li>
+      <a href="/icffr-programme/">
+        <span class="name">ICFFR 2026 programme</span>
+        <span class="desc">Browsable programme for the 10th International Conference on Forest Fire Research, Coimbra</span>
+      </a>
+    </li>
+  </ul>
+
+  <footer><a href="https://github.com/fbunt">github.com/fbunt</a></footer>
+</main>
+</body>
+</html>
